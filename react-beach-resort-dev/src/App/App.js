@@ -9,6 +9,7 @@ import Room from "../Pages/Room";
 import Contacto from "../Pages/Contacto";
 import SingleRoom from "../Pages/SingleRoom";
 import Error from "../Pages/Error";
+import Comodities from "../Pages/Comodities"
 
 // import components
 import Navbar from "../Components/Navbar/Navbar";
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/rooms/" component={Room} />
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route exact path="/Contacto" component={Contacto} />
+        <Route exact path="/Comodities" component={Comodities} />
         <Route component={Error} />
       </Switch>
       <Footer />

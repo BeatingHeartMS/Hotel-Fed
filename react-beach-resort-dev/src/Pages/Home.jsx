@@ -13,17 +13,14 @@ function Home() {
       <Hero>
         <Banner
           title="alma errante"
-          subtitle="federación, entre ríos"
+          subtitle="Experimenta la tranquilidad de nuestro refugio, donde cada atardecer sobre el río Uruguay se convierte en un cuadro de paz y armonía. Sumérgete en la comodidad de nuestro espacio, rodeado por la belleza del paisaje natural que te ofrece una conexión única con la serenidad y la naturaleza."
         >
-          <Link to="/rooms/Departamento" className="btn-primary">
-            Departamentos
-          </Link>
           <Link to="/Contacto" className="btn-primary">
-            Contacto
+            Reserva
           </Link>
         </Banner>
       </Hero>
-      <Services />
+      {/* <Services /> */}
       <FeaturedRooms />
     </>
   );

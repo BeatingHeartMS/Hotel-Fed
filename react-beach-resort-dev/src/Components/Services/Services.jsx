@@ -13,7 +13,7 @@ export default class Services extends Component {
         icon: <FaSwimmingPool />,
         title: "pileta",
         info:
-          "Pileta con uso exclusivo sin restricción horaria",
+          "Deck con parrilla compartida",
       },
       {
         icon: <FaHiking />,
@@ -39,7 +39,7 @@ export default class Services extends Component {
   render() {
     return (
       <section className="services">
-        <Title title="Servicios" />
+        <Title title="Comodities" />
 
         <div className="services-center">
           {this.state.services.map((item, index) => {

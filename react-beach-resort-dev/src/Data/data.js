@@ -29,7 +29,7 @@ const data = [
       pets: true,
       featured: true,
       description:
-        "Amplia departamento con capacidad para 5 personas, con una habitacion matrimonial, cuentan con television, internet Wifi, Cocina, Heladera y mesa comedor.",
+        "Amplia departamento con capacidad para 4 personas, con una habitacion matrimonial, cuentan con television, internet Wifi, Cocina, Heladera y mesa comedor.",
       extras: [
         "Toallas limpias",
         "Pileta 24hs",

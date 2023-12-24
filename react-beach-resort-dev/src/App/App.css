@@ -15,6 +15,37 @@
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
+/* BOTON REDIRECCION */
+
+.redirect-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.redirect-button button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e0b973;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px; /* Puntas redondeadas */
+}
+
+.redirect-button button:hover {
+  background-color: #c7994f; /* Cambio de color al pasar el ratón sobre el botón */
+}
+
+/* Ajusta el tamaño del botón */
+@media (min-width: 768px) {
+  .redirect-button button {
+    padding: 10px 15px; /* Ajusta el tamaño según sea necesario */
+  }
+}
+
+
 /* globals */
 body {
   padding-top: 66px;
@@ -22,6 +53,9 @@ body {
   background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
+
+  overflow-x: hidden;
+
 }
 h1 {
   font-size: 3em;
@@ -96,10 +130,14 @@ h6 {
   padding: 0.75rem 2rem;
   background: var(--offWhite);
   z-index: 1;
+
 }
+
+
 .nav-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-btn {
   background: transparent;
@@ -259,6 +297,54 @@ h6 {
   margin: 0 auto;
   color: var(--mainBlack);
 }
+
+/* Comodidades */
+
+.comodidades {
+  padding: 1rem 0;
+}
+
+.comodidades-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.comodidades-list,
+.comodidades-slider {
+  padding: 20px;
+  border: 1px  #ddd; /* Ajusta el estilo del borde según tu diseño */
+}
+
+.comodidades-list h2,
+.comodidades-slider h2 {
+  text-align: center;
+}
+
+.comodidades-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comodidades-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comodidades-list li svg {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.comodidades-slider img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
 @media screen and (min-width: 992px) {
   .services-center {
     width: 95vw;

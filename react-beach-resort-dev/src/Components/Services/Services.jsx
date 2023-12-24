@@ -1,58 +1,56 @@
-import React, { Component } from "react";
-
-// imports react-icons
+import React from "react";
+import Slider from "react-slick";
 import { FaSwimmingPool, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
-
-// imports components
 import Title from "../Title/Title";
+import { Link } from "react-router-dom"; // Importa Link desde react-router-dom
+import "../../App/App.css";
 
-export default class Services extends Component {
-  state = {
-    services: [
-      {
-        icon: <FaSwimmingPool />,
-        title: "pileta",
-        info:
-          "Deck con parrilla compartida",
-      },
-      {
-        icon: <FaHiking />,
-        title: "endless hiking",
-        info:
-          "Distintas excursiones y actividades para realizar. https://www.federacion.tur.ar/",
-      },
-      {
-        icon: <FaShuttleVan />,
-        title: "Traslado a las termas",
-        info:
-          "Se puede solicitar el traslado a las termas, con horarios de recogida",
-      },
-      {
-        icon: <FaBeer />,
-        title: "Actividades nocturnas en la ciudad",
-        info:
-          "Distintas actividades nocturnas para realizar en la ciudad",
-      },
-    ],
+const Comodities = () => {
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
-  render() {
-    return (
-      <section className="services">
-        <Title title="Comodities" />
-
-        <div className="services-center">
-          {this.state.services.map((item, index) => {
-            return (
-              <article key={index} className="services">
-                <span>{item.icon}</span>
-                <h6>{item.title}</h6>
-                <p>{item.info}</p>
-              </article>
-            );
-          })}
+  return (
+    <section className="comodidades">
+      <Title title="Comodidades" />
+      <div className="comodidades-container">
+        <div className="comodidades-list">
+          {/* <h2>Lista de Comodidades</h2> */}
+          <ul>
+            <li>
+              ASD
+              Piscina
+              Bar
+              ASDXC
+            </li>
+            <li>
+              Pileta
+            </li>
+            {/* Agrega más elementos según sea necesario */}
+          </ul>
         </div>
-      </section>
-    );
-  }
-}
+        <div className="comodidades-slider">
+          {/* <h2></h2> */}
+          <Slider {...sliderSettings}>
+            <div>
+              <img src="" alt="Imagen 1" />
+            </div>
+            <div>
+              <img src="url_de_la_imagen_2" alt="Imagen 2" />
+            </div>
+            {/* Agrega más imágenes según sea necesario */}
+          </Slider>
+        </div>
+      </div>
+      <div className="redirect-button">
+      <Link to="/comodities">Ver más</Link>
+      </div>
+    </section>
+  );
+};
+
+export default Comodities;

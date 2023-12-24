@@ -3,9 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Banner from "../Components/Banner/Banner";
 import FeaturedRooms from "../Components/FeaturedRooms/FeaturedRooms";
+
 // imports components
 import Hero from "../Components/Hero/Hero";
-import Services from "../Components/Services/Services";
+import Comodities from "../Components/Services/Services";
 
 function Home() {
   return (
@@ -20,8 +21,10 @@ function Home() {
           </Link>
         </Banner>
       </Hero>
-      {/* <Services /> */}
+      <Comodities />
+
       <FeaturedRooms />
+
     </>
   );
 }

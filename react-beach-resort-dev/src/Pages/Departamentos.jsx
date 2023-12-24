@@ -11,19 +11,17 @@ import { Link } from "react-router-dom";
 import Hero from "../Components/Hero/Hero";
 import Banner from "../Components/Banner/Banner";
 
-function Federacion() {
+function Departamentos() {
   return (
 
     <Hero>
-      <Banner title="Federacion" subtitle="Que hago?">
+      <Banner title="Departamentos" subtitle="Que hago?">
 
-      <IconButton>
-        <ImWhatsapp size={70} color='white' onClick={() => window.open('https://wa.me/5491137603315',)} />
-      </IconButton>
+
       
       </Banner>
     </Hero>
 
   );
 }        
-export default Federacion;
+export default Departamentos;

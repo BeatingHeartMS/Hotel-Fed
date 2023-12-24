@@ -10,18 +10,21 @@ import { Link } from "react-router-dom";
 // imports components
 import Hero from "../Components/Hero/Hero";
 import Banner from "../Components/Banner/Banner";
+import Title from "../Components/Title/Title";
 
 function Contacto() {
   return (
 
     <Hero>
-      <Banner title="Contacto" subtitle="Unicamente por WhatsApp! 
-      ">
-
-      <IconButton>
-        <ImWhatsapp size={70} color='white' onClick={() => window.open('https://wa.me/5491137603315',)} />
-      </IconButton>
+      <Banner title="Contacto"
       
+      subtitle="Para coordinar la reserva, comunicarse al +54 9 3456 419530 o contactanos directamente haciendo click en el icono de whastapp">
+      
+        
+      <IconButton>
+        <ImWhatsapp size={70} color='white' onClick={() => window.open('https://wa.me/5493456419530',)} />
+      </IconButton>
+      <h5>La reserva minima son 3 dias.</h5>
       </Banner>
     </Hero>
 

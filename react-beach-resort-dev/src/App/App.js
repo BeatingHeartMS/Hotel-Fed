@@ -5,9 +5,9 @@ import { Route, Switch } from "react-router-dom";
 
 // imports pages
 import Home from "../Pages/Home";
-import Room from "../Pages/Room";
+import Departamentos from "../Pages/Departamentos";
 import Contacto from "../Pages/Contacto";
-import SingleRoom from "../Pages/SingleRoom";
+import Federacion from "../Pages/Federacion";
 import Error from "../Pages/Error";
 import Comodities from "../Pages/Comodities"
 
@@ -21,8 +21,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/rooms/" component={Room} />
-        <Route exact path="/rooms/:slug" component={SingleRoom} />
+        <Route exact path="/Federacion" component={Federacion}/>
+        <Route exact path="/Departamentos" component={Departamentos} />
         <Route exact path="/Contacto" component={Contacto} />
         <Route exact path="/Comodities" component={Comodities} />
         <Route component={Error} />

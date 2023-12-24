@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import { FaSwimmingPool, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom"; // Importa Link desde react-router-dom
 import "../../App/App.css";
@@ -21,15 +20,9 @@ const Comodities = () => {
         <div className="comodidades-list">
           {/* <h2>Lista de Comodidades</h2> */}
           <ul>
-            <li>
-              ASD
-              Piscina
-              Bar
-              ASDXC
-            </li>
-            <li>
-              Pileta
-            </li>
+            <h5> - Deck con parrilla compartida</h5>
+            <h5> - Pileta</h5>
+            <h5> - Espacio compartido con sillas y mesas</h5>
             {/* Agrega más elementos según sea necesario */}
           </ul>
         </div>
@@ -37,16 +30,16 @@ const Comodities = () => {
           {/* <h2></h2> */}
           <Slider {...sliderSettings}>
             <div>
-              <img src="" alt="Imagen 1" />
+              <img src="https://www.shutterstock.com/image-photo/group-friends-having-party-outdoors-260nw-2234937131.jpg" />
             </div>
-            <div>
-              <img src="url_de_la_imagen_2" alt="Imagen 2" />
-            </div>
+            {/* <div>
+              <img src="https://www.puntal.com.ar/css-custom/270/lazy.svg" />
+            </div> */}
             {/* Agrega más imágenes según sea necesario */}
           </Slider>
         </div>
       </div>
-      <div className="redirect-button">
+      <div className="btn-primary">
       <Link to="/comodities">Ver más</Link>
       </div>
     </section>

@@ -24,9 +24,7 @@ const data = [
       name: "Departamento",
       slug: "Departamento",
       type: "familiar",
-      price: 15000,
-      capacidad: 5,
-      pets: true,
+      capacidad: 4,
       featured: true,
       description:
         "Amplia departamento con capacidad para 4 personas, con una habitacion matrimonial, cuentan con television, internet Wifi, Cocina, Heladera y mesa comedor.",

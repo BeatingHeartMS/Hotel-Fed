@@ -16,35 +16,6 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* BOTON REDIRECCION */
-
-.redirect-button {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.redirect-button button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #e0b973;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-radius: 10px; /* Puntas redondeadas */
-}
-
-.redirect-button button:hover {
-  background-color: #c7994f; /* Cambio de color al pasar el ratón sobre el botón */
-}
-
-/* Ajusta el tamaño del botón */
-@media (min-width: 768px) {
-  .redirect-button button {
-    padding: 10px 15px; /* Ajusta el tamaño según sea necesario */
-  }
-}
-
 
 /* globals */
 body {
@@ -98,7 +69,12 @@ h6 {
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
+  margin: 50px;
 }
+.btn-primary{
+  text-align: center;
+}
+
 .btn-primary:hover {
   background: transparent;
   color: var(--primaryColor);
@@ -203,7 +179,7 @@ h6 {
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("../assets/img/jpeg/room-2.jpeg");
+  background-image: url("../assets/img/jpeg/room-12.jpeg");
   min-height: 60vh;
 }
 /* End of Hero */
@@ -214,7 +190,7 @@ h6 {
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
-  text-transform: capitalize;
+  
   letter-spacing: var(--mainSpacing);
 }
 .banner h1 {
@@ -306,17 +282,20 @@ h6 {
 
 .comodidades-container {
   display: grid;
+  margin: auto; 
+  /* gap: auto; */
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
 .comodidades-list,
 .comodidades-slider {
-  padding: 20px;
-  border: 1px  #ddd; /* Ajusta el estilo del borde según tu diseño */
+  width: 80%; /* Ajusta el ancho del slider según sea necesario */
+  margin: auto;
+  padding: 10px;
 }
 
-.comodidades-list h2,
+
 .comodidades-slider h2 {
   text-align: center;
 }
@@ -602,8 +581,23 @@ h6 {
 /* end of rooms filter */
 
 /* footer style */
+.footer-container{
+  display: grid;
+  margin: auto; 
+  /* gap: auto; */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #222; 
+}
 .footer {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #222;
+}
+.footer-left{
+  text-align: left;
+  margin-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #222;
@@ -613,7 +607,7 @@ p {
   color: white;
 }
 .footer a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 .footer a:hover {

@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // import assets
-import defaultImg from "../../assets/img/jpeg/room-1.jpeg";
+import defaultImg from "../../assets/img/jpeg/room-12.jpeg";
 
 // import prop-types
 import PropTypes from "prop-types";

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 // import assets
-import defaultBcg from "../assets/img/jpeg/room-1.jpeg";
+import defaultBcg from "../assets/img/jpeg/room-12.jpeg";
 
 // import components
 import Banner from "../Components/Banner/Banner";
@@ -71,20 +71,11 @@ export default class SingleRoom extends Component {
 
           <div className="single-room-info">
             <article className="desc">
-              <h3>details:</h3>
+              <h3>Detalles:</h3>
               <p>{description}</p>
             </article>
 
-            <article className="info">
-              <h3>information:</h3>
-              <h6>price : ${price}</h6>
 
-              <h6>
-                capacidad :{" "}
-                {capacidad > 1 ? `${capacidad} personas` : `${capacidad} person`}
-              </h6>
-
-            </article>
           </div>
         </section>
 

@@ -83,8 +83,8 @@ h6 {
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
-  width: 25%; /* Ajusta el ancho según tus necesidades */
-  height: 25%; /* Ajusta la altura según tus necesidades */
+  width: 175px; /* Ajusta el ancho según tus necesidades */
+  height: 35px; /* Ajusta la altura según tus necesidades */
   margin-left: 40%;
   margin-top: 10px;
 }

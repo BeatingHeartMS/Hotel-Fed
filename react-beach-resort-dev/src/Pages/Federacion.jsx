@@ -9,21 +9,22 @@ import { Link } from "react-router-dom";
 
 // imports components
 import Hero from "../Components/Hero/Hero";
-import Banner from "../Components/Banner/Banner";
+import BannerFed from "../Components/Banner/BannerFed";
 
 function Federacion() {
   return (
+    <>
+      <Hero>
+        <BannerFed
+          title="Federacion"
+          subtitle="ESCRIBIR ALGO"
+        >
 
-    <Hero>
-      <Banner title="Federacion" subtitle="Que hago?">
+        </BannerFed>
+      </Hero>
 
-      <IconButton>
-        <ImWhatsapp size={70} color='white' onClick={() => window.open('https://wa.me/5491137603315',)} />
-      </IconButton>
-      
-      </Banner>
-    </Hero>
 
+    </>
   );
 }        
 export default Federacion;

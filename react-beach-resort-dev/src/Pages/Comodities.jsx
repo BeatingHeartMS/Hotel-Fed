@@ -9,22 +9,24 @@ import { Link } from "react-router-dom";
 
 // imports components
 import Hero from "../Components/Hero/Hero";
-import Banner from "../Components/Banner/Banner";
+import BannerComodidades from "../Components/Banner/BannerComodidades";
+import ComodidadesComp from "../Components/Services/ComodidadesComp";
+
 
 function Comodities() {
   return (
 
-    <Hero>
-      <Banner title="Comodities" subtitle="Comodities! 
-      ">
+    <>
+      <Hero>
+        <BannerComodidades 
+          title="Comodidades"
+          subtitle=""
+        >
 
-      <IconButton>
-        <ImWhatsapp size={70} color='white' onClick={() => window.open('https://wa.me/5491137603315',)} />
-      </IconButton>
-      
-      </Banner>
-    </Hero>
-
+        </BannerComodidades>
+      </Hero>
+      <ComodidadesComp />
+    </>
   );
 }        
 export default Comodities;

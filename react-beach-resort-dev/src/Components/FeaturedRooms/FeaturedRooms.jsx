@@ -11,11 +11,11 @@ import "../../App/App.css"; // Asegúrate de importar tu archivo CSS
 const FeaturedRooms = () => {
   // Configuración del carrusel (puedes ajustar según tus necesidades)
   const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
+    dots: false,
+    infinite: false,
+    speed: 19,
     slidesToShow: 1,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
   };
 
   return (

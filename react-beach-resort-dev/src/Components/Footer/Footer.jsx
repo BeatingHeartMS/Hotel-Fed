@@ -12,9 +12,9 @@ export default function Footer() {
     <footer className="footer-left">
       <p>    Misiones 312, Federación, Entre Ríos, Argentina</p>
       <p>Contacto : +54 9 3456 419530</p>
-      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+      <p href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
       Instagram
-    </a>
+    </p>
     </footer>
     <footer className="footer">
         {/* <h2>Alma Errante</h2> */}

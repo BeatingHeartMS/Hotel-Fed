@@ -12,11 +12,11 @@ function Home() {
   return (
     <>
       <Hero>
-        <Banner
+        <Banner 
           title="Alma Errante"
           subtitle="Experimenta la tranquilidad de nuestro refugio, donde cada atardecer sobre el río Uruguay se convierte en un cuadro de paz y armonía. Sumérgete en la comodidad de nuestro espacio, rodeado por la belleza del paisaje natural que te ofrece una conexión única con la serenidad y la naturaleza."
         >
-          <Link to="/Contacto" className="btn-primary">
+          <Link to="/Contacto" className="btn-primaryHome">
             Reserva
           </Link>
         </Banner>

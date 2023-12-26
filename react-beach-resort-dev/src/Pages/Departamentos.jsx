@@ -9,19 +9,21 @@ import { Link } from "react-router-dom";
 
 // imports components
 import Hero from "../Components/Hero/Hero";
-import Banner from "../Components/Banner/Banner";
+import BannerDepartamentos from "../Components/Banner/BannerDepartamentos";
+import DepartamentosComp from "../Components/FeaturedRooms/DepartamentosComp";
 
 function Departamentos() {
   return (
-
+    <>
     <Hero>
-      <Banner title="Departamentos" subtitle="Que hago?">
+      <BannerDepartamentos title="Departamentos" subtitle="Que hago?">
 
 
       
-      </Banner>
+      </BannerDepartamentos>
     </Hero>
-
+    <DepartamentosComp />
+    </>
   );
 }        
 export default Departamentos;

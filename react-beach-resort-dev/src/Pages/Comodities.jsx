@@ -20,7 +20,8 @@ function Comodities() {
       <Hero>
         <BannerComodidades 
           title="Comodidades"
-          subtitle=""
+          subtitle="
+          Descubre la tranquilidad en nuestras instalaciones, donde el espacio compartido es un oasis de relajación. Sumérgete en la frescura de la pileta y disfruta de la parrilla compartida. Con sol y playa a pocos metros, nuestro rincón junto al río ofrece una experiencia única"
         >
 
         </BannerComodidades>

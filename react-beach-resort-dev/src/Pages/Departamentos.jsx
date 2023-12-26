@@ -16,7 +16,7 @@ function Departamentos() {
   return (
     <>
     <Hero>
-      <BannerDepartamentos title="Departamentos" subtitle="Que hago?">
+      <BannerDepartamentos title="Departamentos" subtitle="Descubre la serenidad en nuestros acogedores departamentos, diseñados para brindar bienestar y comodidad. Sumérgete en el silencio reparador de nuestras habitaciones, lejos del bullicio cotidiano. Bienvenido a un hogar donde el silencio es un lujo, y tu bienestar es la prioridad. Experimenta la máxima tranquilidad en un espacio simple y apacible.">
 
 
       

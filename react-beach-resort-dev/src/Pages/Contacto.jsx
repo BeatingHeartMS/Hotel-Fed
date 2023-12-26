@@ -24,7 +24,8 @@ function Contacto() {
       <IconButton>
         <ImWhatsapp size={70} color='white' onClick={() => window.open('https://wa.me/5493456419530',)} />
       </IconButton>
-      <h5>La reserva minima son 3 dias.</h5>
+      <div></div>
+      <h4>La reserva minima son 3 dias.</h4>
       </Banner>
     </Hero>
 

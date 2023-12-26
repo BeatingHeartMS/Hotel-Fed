@@ -2,7 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import assets
-import Logo from "../../assets/img/svg/AlmaErrante60.png";
+import Inst from "../../assets/img/svg/icons8-instagram-48.png";
+import MailIcon from "../../assets/img/svg/icons8-gmail-48.png";
+import Maps from "../../assets/img/svg/icons8-google-maps-nuevo-48.png";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -12,15 +14,18 @@ export default function Footer() {
     <footer className="footer-left">
       <p>    Misiones 312, Federación, Entre Ríos, Argentina</p>
       <p>Contacto : +54 9 3456 419530</p>
-      <p href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-      Instagram
-    </p>
+
     </footer>
     <footer className="footer">
-        {/* <h2>Alma Errante</h2> */}
-        <Link to="/">
-              <img src={Logo} alt="Alma Errante" />
-            </Link>
+        <a href="https://www.instagram.com/almaerranteapart/" target="_blank" rel="noopener noreferrer">
+          <img src={Inst} alt="Instagram" />
+        </a>
+        <a href="mailto:correo@gmail.com">
+          <img src={MailIcon} alt="Correo Electrónico" />
+        </a>
+        <a href="https://maps.app.goo.gl/K8nKjtYdjR9EM5fq5">
+          <img src={Maps} alt="Maps" />
+        </a>
       </footer>
     </div>
   );

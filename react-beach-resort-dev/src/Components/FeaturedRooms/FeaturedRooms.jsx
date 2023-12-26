@@ -54,7 +54,7 @@ const FeaturedRooms = () => {
         </div>
       </div>
       <div className="btn-primary">
-      <Link to="/rooms/Departamento">Ver más</Link>
+      <Link to="/Departamentos">Ver más</Link>
       </div>
     </section>
     

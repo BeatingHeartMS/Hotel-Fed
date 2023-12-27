@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 // import context
 import { RoomProvider } from "./Context/Context";
-
+import '../src/Components/ScrollReset/scrollReset';
 ReactDOM.render(
   <RoomProvider>
     <Router>

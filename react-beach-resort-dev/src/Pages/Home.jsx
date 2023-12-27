@@ -6,6 +6,7 @@ import FeaturedRooms from "../Components/FeaturedRooms/FeaturedRooms";
 
 // imports components
 import Hero from "../Components/Hero/Hero";
+import MapsComps from "../Components/Maps/MapsComp";
 import Comodities from "../Components/Services/Services";
 
 function Home() {
@@ -24,7 +25,7 @@ function Home() {
       <Comodities />
 
       <FeaturedRooms />
-
+      <MapsComps/>
     </>
   );
 }

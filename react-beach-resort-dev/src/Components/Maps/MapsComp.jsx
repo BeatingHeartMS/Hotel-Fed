@@ -4,11 +4,12 @@ import React from "react";
 import Title from "../Title/Title";
 import { Link } from "react-router-dom"; // Importa Link desde react-router-dom
 import Slider from "react-slick";
+import Mapa from "../../assets/img/svg/MapaUbi.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../../App/App.css"; // Asegúrate de importar tu archivo CSS
 
-const FeaturedRooms = () => {
+const MapsComps = () => {
   // Configuración del carrusel (puedes ajustar según tus necesidades)
   const sliderSettings = {
     dots: false,
@@ -21,37 +22,33 @@ const FeaturedRooms = () => {
   return (
     
     <section className="comodidades">
-      <Title title="Departamentos" />
+      <Title title="Ubicación" />
       <div className="comodidades-container">
         <div className="comodidades-list">
 
           <ul>
-              <h4> - Dpto. de 50mts cuadrados con capacidad para 4/5 personas</h4>          
-              <h4> - Equipados con todo, para que te sientas como en tu casa</h4>
-              <h4> Te invitamos al detalle de las mismas dando click en el voton "Ver Mas"</h4>
+              <h4> Nos encontramos en Misiones 312</h4>   
+              <h4> Federación, Entre Ríos</h4>        
 
           </ul>
         </div>
         <div className="comodidades-slider">
           {/* <h2></h2> */}
-          <Slider {...sliderSettings}>
-            <div>
-              <img src="https://st5.depositphotos.com/10806848/64646/i/1600/depositphotos_646463892-stock-photo-modern-style-white-living-room.jpg" />
-            </div>
+
+            <a href="https://maps.app.goo.gl/K8nKjtYdjR9EM5fq5">
+            <img src={Mapa} alt="Maps" />
+          </a>
             {/* <div>
               <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Pileta_1.jpg" />
             </div> */}
             {/* Agrega más imágenes según sea necesario */}
-          </Slider>
+
         </div>
-      </div>
-      <div className="btn-primary">
-      <Link to="/Departamentos">Ver más</Link>
       </div>
     </section>
     
   );
 };
 
-export default FeaturedRooms;
+export default MapsComps;
 

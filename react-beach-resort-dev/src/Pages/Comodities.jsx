@@ -29,5 +29,6 @@ function Comodities() {
       <ComodidadesComp />
     </>
   );
-}        
+}
+        
 export default Comodities;

@@ -25,37 +25,37 @@ const DepartamentosComp = () => {
           <div className="comodidades-grid">
             {/* Utiliza un diseño de cuadrícula para las características */}
             <div className="comodidad-item">
-              <h5> - Dpto. de 50mts cuadrados con capacidad para 4/5 personas</h5>      
+              <h5> Dpto. de 50mts cuadrados con capacidad para 4/5 personas</h5>      
               </div>    
               <div className="comodidad-item">
-              <h5> - Sala de estar</h5>
+              <h5> Sala de estar</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Tv smart en ambas habitaciones</h5>
+              <h5> Tv smart en ambas habitaciones</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Wifi</h5>
+              <h5> Wifi</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Ropa de cama</h5>
+              <h5> Ropa de cama</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Toallas</h5>
+              <h5> Toallas</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Cocina</h5>
+              <h5> Cocina</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Heladera</h5>
+              <h5> Heladera con frezeer</h5>
               </div>      
               <div className="comodidad-item">
-              <h5> - Microondas</h5>
+              <h5> Microondas</h5>
               </div>
               <div className="comodidad-item">
-              <h5> - Vajilla completa</h5>
+              <h5> Vajilla completa</h5>
               </div>
             <div className="comodidad-item">
-            <h5> - A.A Frio/Calor</h5>
+            <h5> A.A Frio/Calor</h5>
             </div>
 
             {/* Agrega más elementos de características según sea necesario */}

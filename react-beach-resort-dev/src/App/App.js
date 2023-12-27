@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+
 // import react-router-dom
 import { Route, Switch } from "react-router-dom";
 
@@ -14,10 +15,12 @@ import Comodities from "../Pages/Comodities"
 // import components
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
+import ScrollReset from "../Components/ScrollReset/scrollReset";
 
 function App() {
   return (
     <>
+    <ScrollReset />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

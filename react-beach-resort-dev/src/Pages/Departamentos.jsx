@@ -25,5 +25,6 @@ function Departamentos() {
     <DepartamentosComp />
     </>
   );
-}        
+}       
+ 
 export default Departamentos;

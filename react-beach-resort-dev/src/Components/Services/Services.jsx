@@ -20,9 +20,10 @@ const Comodities = () => {
         <div className="comodidades-list">
           {/* <h2>Lista de Comodidades</h2> */}
           <ul>
-            <h5> - Deck con parrilla compartida</h5>
-            <h5> - Pileta</h5>
-            <h5> - Espacio compartido con sillas y mesas</h5>
+            <h4> - Deck con parrilla compartida </h4>
+            <h4> - Pileta</h4>
+            <h4> - Espacio compartido con sillas y mesas</h4>
+            <h4> Te invitamos a ver nuestra galeria y obtener mas información dando click en "Ver Más"</h4>
             {/* Agrega más elementos según sea necesario */}
           </ul>
         </div>

@@ -3,29 +3,10 @@ import Title from "../Title/Title";
 import { Link } from "react-router-dom";
 import "../../App/App.css";
 
-const ComodidadesComp = () => {
+const FederacionComp = () => {
   return (
     <section className="comodidades">
-      <h3>Contaras con bla bla</h3>
-
-        <div className="comodidades-grid">
-          {/* Utiliza un diseño de cuadrícula para las características */}
-          <div className="comodidad-item">
-            <h5>Deck con parrilla compartida</h5>
-          </div>
-          <div className="comodidad-item">
-            <h5>Pileta</h5>
-          </div>
-          <div className="comodidad-item">
-            <h5>Espacio compartido con sillas y mesas</h5>
-          </div>
-          <div className="comodidad-item">
-            <h5>Playa a unas cuadras</h5>
-          </div>
-
-        </div>
-
-
+      <h4>   Queremos dejar a las imagenes hablar por si solas para convencerte del atractivo de este hermoso lugar.</h4>
 
       <div className="comodidades-gallery">
           {/* Utiliza un diseño de cuadrícula para la galería */}
@@ -50,4 +31,4 @@ const ComodidadesComp = () => {
   );
 };
 
-export default ComodidadesComp;
+export default FederacionComp;

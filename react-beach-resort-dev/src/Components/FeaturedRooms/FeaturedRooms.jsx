@@ -36,7 +36,7 @@ const FeaturedRooms = () => {
           {/* <h2></h2> */}
           <Slider {...sliderSettings}>
             <div>
-              <img src="https://st5.depositphotos.com/10806848/64646/i/1600/depositphotos_646463892-stock-photo-modern-style-white-living-room.jpg" />
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723204/Comodidades/bynedjv0wyggk9odhsoa.jpg" />
             </div>
             {/* <div>
               <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Pileta_1.jpg" />

@@ -31,7 +31,7 @@ const Comodities = () => {
           {/* <h2></h2> */}
           <Slider {...sliderSettings}>
             <div>
-              <img src="https://www.shutterstock.com/image-photo/group-friends-having-party-outdoors-260nw-2234937131.jpg" />
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723467/Departamentos/w0wmr8jpxmpgvxxgsmkk.jpg" />
             </div>
             {/* <div>
               <img src="https://www.puntal.com.ar/css-custom/270/lazy.svg" />

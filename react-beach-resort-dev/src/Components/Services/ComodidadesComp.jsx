@@ -6,7 +6,7 @@ import "../../App/App.css";
 const ComodidadesComp = () => {
   return (
     <section className="comodidades">
-      <h3>Contaras con bla bla</h3>
+      
 
         <div className="comodidades-grid">
           {/* Utiliza un diseño de cuadrícula para las características */}

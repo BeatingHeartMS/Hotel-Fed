@@ -200,7 +200,7 @@ a:hover {
 /* Banner */
 .banner {
   display: inline-block;
-  background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703592434/defaultBcg2_bvwpxh.jpg");
+  background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703725558/defaultBcg2_ropgtr.jpg");
   background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
   background-position: center; /* Centra la imagen de fondo tanto horizontal como verticalmente */
   color: var(--mainWhite);

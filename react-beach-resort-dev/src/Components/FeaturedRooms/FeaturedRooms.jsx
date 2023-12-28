@@ -28,7 +28,7 @@ const FeaturedRooms = () => {
           <ul>
               <h4> - Dpto. de 50mts cuadrados con capacidad para 4/5 personas</h4>          
               <h4> - Equipados con todo, para que te sientas como en tu casa</h4>
-              <h4> Te invitamos al detalle de las mismas dando click en el voton "Ver Mas"</h4>
+              <h4> Te invitamos al detalle de las mismas dando click "Ver Mas"</h4>
 
           </ul>
         </div>

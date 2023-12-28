@@ -28,42 +28,43 @@ const ComodidadesComp = () => {
 
 
       <div className="comodidades-gallery">
-      <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723308/Comodidades/jns75kdija7vk8kjuwga.jpg"/>
-            </div>
+                <div className="gallery-item">
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767325/ComodidadesCompress/puyh38wfnj4axdvejpup.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723357/Comodidades/ng6pym0uizq7btdsnxhk.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767325/ComodidadesCompress/uwjpcdfsk9bxxu3scehc.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723253/Comodidades/ghhlqfnuhansrjlnvs2h.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767325/ComodidadesCompress/ktlneivlyo2bzacllowl.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723340/Comodidades/ihlnkaqxywajxfkky8tr.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767323/ComodidadesCompress/gwkjppqnjvb35zleqit9.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723204/Comodidades/bynedjv0wyggk9odhsoa.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767322/ComodidadesCompress/xgwzeuoij4jknrofnqfs.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723202/Comodidades/t55agtrrtqzkw6j6zvhd.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767321/ComodidadesCompress/u1oajdgvnkwtuldciwxr.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723145/Comodidades/ejvxzzypnmy3jzsbghso.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767317/ComodidadesCompress/r5l975bykabyvarpklzq.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723176/Comodidades/ilyg1vryqflvk3zecrni.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767316/ComodidadesCompress/gzn9vo3okveww2gf0kkp.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723135/Comodidades/hrop3ki2e3zij0z1syni.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767316/ComodidadesCompress/xp6vias5c1xg3afhwhzo.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703724575/Comodidades/rswxlyogcfnay5lykul9.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767316/ComodidadesCompress/paajvjzev8mdpchgng4n.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723067/Comodidades/kubc9exgapczkng6lzzv.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767315/ComodidadesCompress/zcygw0qunbu9imwb1aqs.jpg"/>
+                        </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723044/Comodidades/vvsaubk3eonetmjjxar8.jpg"/>
-            </div>
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767315/ComodidadesCompress/zcygw0qunbu9imwb1aqs.jpg"/>
+                        </div>
+
           </div>
         <div className="btn-primary">
         <Link to="/Contacto">Contactanos!</Link>

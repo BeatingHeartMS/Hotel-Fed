@@ -62,30 +62,28 @@ const DepartamentosComp = () => {
           </div>
 
         <div className="comodidades-gallery">
-        <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723467/Departamentos/w0wmr8jpxmpgvxxgsmkk.jpg"/>
-              </div>
+                    <div className="gallery-item">
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767394/DepartamentosCompress/pgtcfui9qnlbwatt2853.jpg"/>
+                          </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723500/Departamentos/mdpkuaaymmgnblgffwrq.jpg"/>
-              </div>
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767393/DepartamentosCompress/rwleuytaefladbcsebrl.jpg"/>
+                          </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723447/Departamentos/lcjyljzprdwyq1cdvygu.jpg"/>
-              </div>
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767393/DepartamentosCompress/tw96xvpmbudwqjjwexw8.jpg"/>
+                          </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723415/Departamentos/smwsdccg56owexh6ifgd.jpg"/>
-              </div>
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767393/DepartamentosCompress/owbz3injxlfdokagcvms.jpg"/>
+                          </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723375/Departamentos/tvs7ojdx5mucfpiipglb.jpg"/>
-              </div>
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767393/DepartamentosCompress/fraefyctnd8ie6vv7e7g.jpg"/>
+                          </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723388/Departamentos/mq8qpftk0xqlieufu2go.jpg"/>
-              </div>
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767391/DepartamentosCompress/r1qewlgtgbyv2lj4mhok.jpg"/>
+                          </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723274/Departamentos/uotsly8dogczx1sm7zut.jpg"/>
-              </div>
-            <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723227/Departamentos/zlsseyufcy0kej6tfgwu.jpg"/>
-              </div>
+                          <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767393/DepartamentosCompress/yvmiv5hysbhzqb08phqa.jpg"/>
+                          </div>
+
           </div>
           <div className="btn-primary">
           <Link to="/Contacto">Contactanos!</Link>

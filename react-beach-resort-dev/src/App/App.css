@@ -236,7 +236,7 @@ a:hover {
   display: inline-block;
   background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703723467/Departamentos/w0wmr8jpxmpgvxxgsmkk.jpg");
   background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
-  background-position: center; /* Centra la imagen de fondo tanto horizontal como verticalmente */
+  background-position: bottom; /* Centra la imagen de fondo tanto horizontal como verticalmente */
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;

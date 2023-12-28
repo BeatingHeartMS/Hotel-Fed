@@ -213,12 +213,16 @@ a:hover {
 }
 .bannerFed{
   display: inline-block;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTatyVqFvcWKt4hJ8q_Miq9G271F5tA2wocD-5BgONMUg&s");
+  background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703803648/Federacion/n9t4yeofxmorf1wlr4qn.jpg");
+  background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+  background-position: bottom; /* Centra la imagen de fondo tanto horizontal como verticalmente */
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
+  letter-spacing: var(--mainSpacing);
   width: 100%;
-  height: 100%;
+  height: 50vh;
+  margin: 0; /* Elimina cualquier margen para que el banner alcance los bordes de la pantalla */
 }
 
 .BannerComodidades {

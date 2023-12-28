@@ -223,7 +223,7 @@ a:hover {
 
 .BannerComodidades {
   display: inline-block;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTatyVqFvcWKt4hJ8q_Miq9G271F5tA2wocD-5BgONMUg&s");
+  background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703723204/Comodidades/bynedjv0wyggk9odhsoa.jpg");
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
@@ -234,7 +234,7 @@ a:hover {
 
 .bannerDepartamentos {
   display: inline-block;
-  background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703592429/room-12_tsafom.jpg");
+  background-image: url("https://res.cloudinary.com/duwgskhvh/image/upload/v1703723467/Departamentos/w0wmr8jpxmpgvxxgsmkk.jpg");
   background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
   background-position: center; /* Centra la imagen de fondo tanto horizontal como verticalmente */
   color: var(--mainWhite);

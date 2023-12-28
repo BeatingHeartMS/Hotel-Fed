@@ -28,21 +28,43 @@ const ComodidadesComp = () => {
 
 
       <div className="comodidades-gallery">
-          {/* Utiliza un diseño de cuadrícula para la galería */}
+      <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723308/Comodidades/jns75kdija7vk8kjuwga.jpg"/>
+            </div>
           <div className="gallery-item">
-            <img src="https://www.shutterstock.com/image-photo/group-friends-having-party-outdoors-260nw-2234937131.jpg" alt="Galería 1" />
-          </div>
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723357/Comodidades/ng6pym0uizq7btdsnxhk.jpg"/>
+            </div>
           <div className="gallery-item">
-            <img src="https://www.shutterstock.com/image-photo/group-friends-having-party-outdoors-260nw-2234937131.jpg" alt="Galería 1" />
-          </div>
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723253/Comodidades/ghhlqfnuhansrjlnvs2h.jpg"/>
+            </div>
           <div className="gallery-item">
-            <img src="https://www.shutterstock.com/image-photo/group-friends-having-party-outdoors-260nw-2234937131.jpg" alt="Galería 1" />
-          </div>
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723340/Comodidades/ihlnkaqxywajxfkky8tr.jpg"/>
+            </div>
           <div className="gallery-item">
-            <img src="https://www.shutterstock.com/image-photo/group-friends-having-party-outdoors-260nw-2234937131.jpg" alt="Galería 1" />
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723204/Comodidades/bynedjv0wyggk9odhsoa.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723202/Comodidades/t55agtrrtqzkw6j6zvhd.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723145/Comodidades/ejvxzzypnmy3jzsbghso.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723176/Comodidades/ilyg1vryqflvk3zecrni.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723135/Comodidades/hrop3ki2e3zij0z1syni.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703724575/Comodidades/rswxlyogcfnay5lykul9.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723067/Comodidades/kubc9exgapczkng6lzzv.jpg"/>
+            </div>
+          <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723044/Comodidades/vvsaubk3eonetmjjxar8.jpg"/>
+            </div>
           </div>
-          {/* Agrega más elementos de la galería según sea necesario */}
-        </div>
         <div className="btn-primary">
         <Link to="/Contacto">Contactanos!</Link>
       </div>

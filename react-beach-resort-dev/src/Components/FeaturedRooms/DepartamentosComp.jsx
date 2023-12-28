@@ -62,19 +62,30 @@ const DepartamentosComp = () => {
           </div>
 
         <div className="comodidades-gallery">
-            {/* Utiliza un diseño de cuadrícula para la galería */}
+        <div className="gallery-item">
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723467/Departamentos/w0wmr8jpxmpgvxxgsmkk.jpg"/>
+              </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703592429/room-12_tsafom.jpg"/>
-            </div>
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723500/Departamentos/mdpkuaaymmgnblgffwrq.jpg"/>
+              </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703592429/details-2_brc3az.jpg" />
-            </div>
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723447/Departamentos/lcjyljzprdwyq1cdvygu.jpg"/>
+              </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703592429/details-3_flcrv8.jpg"/>
-            </div>
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723415/Departamentos/smwsdccg56owexh6ifgd.jpg"/>
+              </div>
             <div className="gallery-item">
-              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703592430/details-4_zr54tg.jpg"/>
-            </div>  
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723375/Departamentos/tvs7ojdx5mucfpiipglb.jpg"/>
+              </div>
+            <div className="gallery-item">
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723388/Departamentos/mq8qpftk0xqlieufu2go.jpg"/>
+              </div>
+            <div className="gallery-item">
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723274/Departamentos/uotsly8dogczx1sm7zut.jpg"/>
+              </div>
+            <div className="gallery-item">
+              <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703723227/Departamentos/zlsseyufcy0kej6tfgwu.jpg"/>
+              </div>
           </div>
           <div className="btn-primary">
           <Link to="/Contacto">Contactanos!</Link>

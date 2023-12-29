@@ -18,7 +18,7 @@ function Federacion() {
       <Hero>
         <BannerFed
           title="Federación"
-          subtitle="Conoce Federación, un paraíso terrenal que ofrece una experiencia rejuvenecedora. Sumérgete en nuestras relajantes termas y disfruta del parque acuático, un escape perfecto para renovar cuerpo y mente. Navega por las tranquilas aguas del río, explora reservas naturales que te conectan con la serenidad. En cada rincón, encontrarás la armonía perfecta entre la naturaleza y la diversión."
+          subtitle="Conocé Federación, un paraíso terrenal que ofrece una experiencia rejuvenecedora. Sumérgete en nuestras relajantes termas y disfruta del parque acuático, un escape perfecto para renovar cuerpo y mente. Navega por las tranquilas aguas del río, explora reservas naturales que te conectan con la serenidad. En cada rincón, encontrarás la armonía perfecta entre la naturaleza y la diversión."
         >
 
         </BannerFed>

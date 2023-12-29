@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Inst from "../../assets/img/svg/icons8-instagram-48.png";
 import MailIcon from "../../assets/img/svg/icons8-gmail-48.png";
 import Maps from "../../assets/img/svg/icons8-google-maps-nuevo-48.png";
+import WSP from "../../assets/img/svg/icons8-whatsapp-48.png";
+
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -17,6 +19,9 @@ export default function Footer() {
 
     </footer>
     <footer className="footer">
+        <a href="https://wa.me/5493456419530">
+          <img src={WSP} alt="Wsp" />
+        </a>
         <a href="https://www.instagram.com/almaerranteapart/" target="_blank" rel="noopener noreferrer">
           <img src={Inst} alt="Instagram" />
         </a>

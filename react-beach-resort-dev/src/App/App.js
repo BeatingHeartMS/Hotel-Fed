@@ -3,6 +3,7 @@ import React from "react";
 
 // import react-router-dom
 import { Route, Switch } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 // imports pages
 import Home from "../Pages/Home";
@@ -20,6 +21,24 @@ import ScrollReset from "../Components/ScrollReset/scrollReset";
 function App() {
   return (
     <>
+    <div>
+      {/* Contenido de tu aplicación */}
+
+      {/* Agrega el código de Google Analytics al encabezado */}
+      <Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=TU_ID_DE_ANALYTICS"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "TU_ID_DE_ANALYTICS");
+          `}
+        </script>
+      </Helmet>
+    </div>
     <ScrollReset />
       <Navbar />
       <Switch>

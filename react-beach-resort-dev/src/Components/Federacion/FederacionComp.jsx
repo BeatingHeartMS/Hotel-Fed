@@ -26,9 +26,6 @@ const FederacionComp = () => {
             <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703803848/Federacion/uwost6srhplaixf8dprm.jpg"/>
             </div>
           <div className="gallery-item">
-            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703803848/Federacion/uwost6srhplaixf8dprm.jpg"/>
-            </div>
-          <div className="gallery-item">
             <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703803648/Federacion/n9t4yeofxmorf1wlr4qn.jpg"/>
             </div>
           <div className="gallery-item">

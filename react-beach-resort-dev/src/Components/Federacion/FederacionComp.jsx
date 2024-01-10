@@ -12,6 +12,19 @@ const FederacionComp = () => {
       <div className="gallery-item">
             <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703803849/Federacion/q1tsdz3esfyk4mhom0q6.webp"/>
             </div>
+            <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1704891469/Federacion/IMG_7907_u8ikyi.jpg"/>
+            </div>
+            <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1704891469/Federacion/IMG_7929_kvmlrq.jpg"/>
+            </div>     
+            
+            <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1704891468/Federacion/IMG_7925_jwl4yf.jpg"/>
+            </div>
+            <div className="gallery-item">
+            <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703803848/Federacion/uwost6srhplaixf8dprm.jpg"/>
+            </div>
           <div className="gallery-item">
             <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703803848/Federacion/uwost6srhplaixf8dprm.jpg"/>
             </div>

@@ -34,6 +34,10 @@ const ComodidadesComp = () => {
           <div className="gallery-item">
                         <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767325/ComodidadesCompress/uwjpcdfsk9bxxu3scehc.jpg"/>
                         </div>
+                        <div className="gallery-item">
+                        <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1704891524/ComodidadesCompress/IMG_7903_paem5s.jpg"/>
+                        </div>
+                        
           <div className="gallery-item">
                         <img src="https://res.cloudinary.com/duwgskhvh/image/upload/v1703767325/ComodidadesCompress/ktlneivlyo2bzacllowl.jpg"/>
                         </div>
